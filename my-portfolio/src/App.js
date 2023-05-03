@@ -10,6 +10,7 @@ import ProfessionalExperience from './components/ProfessionalExperience';
 import Leadership from './components/Leadership';
 import ContactMe from './components/ContactMe';
 
+
 const theme = createTheme({
   palette: {
     primary: {
@@ -68,20 +69,17 @@ const theme = createTheme({
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/education" element={<Education />} />
-          <Route path="/coursework" element={<Coursework />} />
-          <Route path="/professional-experience" element={<ProfessionalExperience />} />
-          <Route path="/leadership" element={<Leadership />} />
-          <Route path="/contact-me" element={<ContactMe />} />
-        </Routes>
-      </Router>
-    </ThemeProvider>
+    <Router basename="/cs67">
+      {/* Navigation bar and other components */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/education" element={<Education />} />
+        <Route path="/coursework" element={<Coursework />} />
+        <Route path="/experience" element={<ProfessionalExperience />} />
+        <Route path="/leadership" element={<Leadership />} />
+        <Route path="/contactme" element={<ContactMe />} />
+      </Routes>
+    </Router>
   );
 }
 
