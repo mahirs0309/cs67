@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/my-portfolio/static/js/main.e359e979.js",
+    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/profile.jpg": "/my-portfolio/static/media/profile.2fbeb3899a36060bdaee.jpg",
+    "static/media/dartmouth.jpg": "/my-portfolio/static/media/dartmouth.ef86ada83c741c4389b7.jpg",
+    "static/media/fhs.jpeg": "/my-portfolio/static/media/fhs.8012501a79983530d396.jpeg",
+    "index.html": "/my-portfolio/index.html",
+    "main.e359e979.js.map": "/my-portfolio/static/js/main.e359e979.js.map",
+    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.e359e979.js"
+  ]
+}
