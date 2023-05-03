@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/cs67/my-portfolio/static/js/main.5d20d852.js",
-    "static/js/787.128fc6e9.chunk.js": "/cs67/my-portfolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/profile.jpg": "/cs67/my-portfolio/static/media/profile.2fbeb3899a36060bdaee.jpg",
-    "static/media/dartmouth.jpg": "/cs67/my-portfolio/static/media/dartmouth.ef86ada83c741c4389b7.jpg",
-    "static/media/fhs.jpeg": "/cs67/my-portfolio/static/media/fhs.8012501a79983530d396.jpeg",
-    "index.html": "/cs67/my-portfolio/index.html",
-    "main.5d20d852.js.map": "/cs67/my-portfolio/static/js/main.5d20d852.js.map",
-    "787.128fc6e9.chunk.js.map": "/cs67/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+    "main.js": "/cs67/static/js/main.83b0738f.js",
+    "static/js/787.128fc6e9.chunk.js": "/cs67/static/js/787.128fc6e9.chunk.js",
+    "static/media/profile.jpg": "/cs67/static/media/profile.2fbeb3899a36060bdaee.jpg",
+    "static/media/dartmouth.jpg": "/cs67/static/media/dartmouth.ef86ada83c741c4389b7.jpg",
+    "static/media/fhs.jpeg": "/cs67/static/media/fhs.8012501a79983530d396.jpeg",
+    "index.html": "/cs67/index.html",
+    "main.83b0738f.js.map": "/cs67/static/js/main.83b0738f.js.map",
+    "787.128fc6e9.chunk.js.map": "/cs67/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.5d20d852.js"
+    "static/js/main.83b0738f.js"
   ]
 }
