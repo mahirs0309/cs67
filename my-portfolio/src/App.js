@@ -69,17 +69,20 @@ const theme = createTheme({
 
 function App() {
   return (
-    <Router basename="/cs67">
-      {/* Navigation bar and other components */}
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/education" element={<Education />} />
-        <Route path="/coursework" element={<Coursework />} />
-        <Route path="/experience" element={<ProfessionalExperience />} />
-        <Route path="/leadership" element={<Leadership />} />
-        <Route path="/contactme" element={<ContactMe />} />
-      </Routes>
-    </Router>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/coursework" element={<Coursework />} />
+          <Route path="/experience" element={<ProfessionalExperience />} />
+          <Route path="/leadership" element={<Leadership />} />
+          <Route path="/contactMe" element={<ContactMe />} />
+        </Routes>
+      </Router>
+    </ThemeProvider>
   );
 }
 
