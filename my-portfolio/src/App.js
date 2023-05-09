@@ -71,7 +71,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Router>
+      <Router basename="/cs67">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -83,6 +83,7 @@ function App() {
         </Routes>
       </Router>
     </ThemeProvider>
+// ...
   );
 }
 
