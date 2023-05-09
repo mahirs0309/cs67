@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/cs67/static/js/main.ac3fcf02.js",
+    "main.js": "/cs67/static/js/main.c618e0d5.js",
     "static/js/787.128fc6e9.chunk.js": "/cs67/static/js/787.128fc6e9.chunk.js",
     "static/media/profile.jpg": "/cs67/static/media/profile.2fbeb3899a36060bdaee.jpg",
     "static/media/dartmouth.jpg": "/cs67/static/media/dartmouth.ef86ada83c741c4389b7.jpg",
     "static/media/fhs.jpeg": "/cs67/static/media/fhs.8012501a79983530d396.jpeg",
     "index.html": "/cs67/index.html",
-    "main.ac3fcf02.js.map": "/cs67/static/js/main.ac3fcf02.js.map",
+    "main.c618e0d5.js.map": "/cs67/static/js/main.c618e0d5.js.map",
     "787.128fc6e9.chunk.js.map": "/cs67/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.ac3fcf02.js"
+    "static/js/main.c618e0d5.js"
   ]
 }
