@@ -77,9 +77,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/education" element={<Education />} />
           <Route path="/coursework" element={<Coursework />} />
-          <Route path="/experience" element={<ProfessionalExperience />} />
+          <Route path="/professional-experience" element={<ProfessionalExperience />} />
           <Route path="/leadership" element={<Leadership />} />
-          <Route path="/contactMe" element={<ContactMe />} />
+          <Route path="/contact-me" element={<ContactMe />} />
         </Routes>
       </Router>
     </ThemeProvider>
